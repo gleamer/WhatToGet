@@ -5,7 +5,7 @@
 
 ## 获取视频
 
-### http://study.zuimeia.com视频下载
+1. [http://study.zuimeia.com](http://study.zuimeia.com) 视频下载
 	
 - 1小时左右视频是由上百个ts文件组成，ts文件链接示例图如下：
 
