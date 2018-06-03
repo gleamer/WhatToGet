@@ -73,7 +73,7 @@ public class GetZhiQuVideos {
 			}
 			tsNum++;
 
-			ThreadA t1 = new ThreadA("t1");
+			ThreadV t1 = new ThreadV("t1");
 			t1.start();
 		}
 	}
@@ -94,23 +94,3 @@ public class GetZhiQuVideos {
 }
 
 
-class ThreadA extends Thread {
-
-	public ThreadA(String name) {
-		super(name);
-	}
-
-	public synchronized void run() {
-		try {
-			for (int i = 0; i < 10; i++) {
-				System.out.printf("%s: %d\t", this.getName(), i);
-				// i能被4整除时，休眠570毫秒
-				if (i % 4 == 0)// if (i%4 == 0)
-					Thread.sleep(570);
-			}
-			System.out.printf("\n");
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-	}
-}
