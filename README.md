@@ -18,3 +18,9 @@
 - ts格式视频，最后合并为1个视频
 
 ![](doc/egtsvideos.png)
+
+2. [https://www.yizhibo.com](https://www.yizhibo.com) 视频下载
+
+- 链接示例图如下：
+
+![](doc/yizbLink.png)
