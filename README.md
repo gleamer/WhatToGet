@@ -24,3 +24,12 @@
 - 链接示例图如下：
 
 ![](doc/yizbLink.png)
+
+### 视频合并
+
+-示例代码（命令提示符，cmd窗口输入）：
+
+```
+copy /b  H:\yizb\0601\*.ts  H:\tsmerge\0601new.ts
+```
+
